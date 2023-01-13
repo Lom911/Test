@@ -1,6 +1,6 @@
 package com.example.demo.javacode.auto_service;
 
-/* Написать сервися для проведения техосмотра автомобиля
+/* Написать сервис для проведения техосмотра автомобиля
    Если на вход подаётся Автобус - его не проверять
    Прописать свой эксепшен, если не пройден техосмотр
 *  */
@@ -10,6 +10,7 @@ public class Main {
     private static Truck truck = new Truck("04.04.05", 10943, 800_000 );
     private static Truck truck2 = new Truck("04.04.05", 10943, 200_000 );
     private static Bus bus = new Bus("04.04.05", 10943, 200_000 );
+
 
     public static void main(String[] args) throws AutoServiceFuckedUpException {
 

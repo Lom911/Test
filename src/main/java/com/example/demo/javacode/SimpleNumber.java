@@ -8,7 +8,7 @@ package com.example.demo.javacode;
 
 
 public class SimpleNumber {
-    private static int number = 97;
+    private static int number = 7;
 
     public static void main(String[] args) {
         simpleNumber(number);
