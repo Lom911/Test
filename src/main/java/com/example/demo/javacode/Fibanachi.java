@@ -9,20 +9,20 @@ import java.util.stream.Stream;
 public class Fibanachi {
 
     static long result = 0;
-    static int fib = 10;
+    static int fib = 5;
 
     public static void main(String[] args) {
         System.out.println(fibanachiSumm(fib));
-        System.out.println(fibFor(fib));
-        System.out.println(fibonacci(fib));
-        System.out.println(fibStream(fib));
+//        System.out.println(fibFor(fib));
+//        System.out.println(fibonacci(fib));
+//        System.out.println(fibStream(fib));
     }
 
     public static long fibanachiSumm(int fibanachi) {
         if (fibanachi == 1) {
             return result = 1;
         }
-        if (fibanachi == 2) {
+        if (fibanachi == 0) {
             return result = 1;
         }
 
