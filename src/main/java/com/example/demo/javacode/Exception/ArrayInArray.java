@@ -17,12 +17,11 @@ import java.util.List;
 public class ArrayInArray {
 
     public static List<Integer> set = new LinkedList<>();
+    static Object[] a = {3, 6, 5, 6, 7};
+    static Object[] b = {2, a, 8};
+    static Object[] c = {1, b, 8};
 
     public static void main(String[] args) {
-
-        Object[] a = {3, 6, 5, 6, 7};
-        Object[] b = {2, a, 8};
-        Object[] c = {1, b, 8};
 
         getNumber(c);
         System.out.println(set);
