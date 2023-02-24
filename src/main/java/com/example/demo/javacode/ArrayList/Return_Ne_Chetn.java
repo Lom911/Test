@@ -14,7 +14,7 @@ public class Return_Ne_Chetn {
     private static List<Integer> resultList(List<Integer> list) {
         List<Integer> arrayList = new ArrayList<>();
         for (Integer integer : list) {
-            if (integer % 3 != 0) {
+            if (integer % 2 != 0) {
                 arrayList.add(integer);
             }
         }
