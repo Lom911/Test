@@ -29,6 +29,7 @@ class ProcessDeliveryOrders {
                 .map(s -> s.getAddress())
                 .distinct()
                 .forEach(System.out::println);
+
     }
 
     public static void main(String[] args) {
