@@ -13,7 +13,7 @@ public class Password {
         System.out.println("generat");
         System.out.println("new");
 
-//        симолы
+//        символы
 
      String big_char = "QWERTYUIOPASDFGHJKLZXCVBNM";
      String small_char = "qwertyuiopasdfghjklzxcvbnm";

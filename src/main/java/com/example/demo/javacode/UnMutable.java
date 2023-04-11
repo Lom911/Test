@@ -9,7 +9,7 @@ public final class UnMutable {
 
     public UnMutable(String name, Map<String, String> unMap) {
         this.name = name;
-        Map<String, String> copyMap = new HashMap<String, String>();
+        Map<String, String> copyMap = new HashMap<>();
         for (String s : copyMap.keySet()) {
             copyMap.put(s, copyMap.get(s));
         }
@@ -21,7 +21,7 @@ public final class UnMutable {
     }
 
     public Map<String, String> getUnMap() {
-        Map<String, String> copyMap = new HashMap<String, String>();
+        Map<String, String> copyMap = new HashMap<>();
         for (String s : copyMap.keySet()) {
             copyMap.put(s, copyMap.get(s));
         }
