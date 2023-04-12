@@ -1,7 +1,7 @@
 package com.example.demo.javacode.It_One;
 
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
@@ -13,7 +13,7 @@ public class Two {
         System.out.println(firstUniq(arr));
     }
     public static int firstUniq(int[] arr) {
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new LinkedHashMap<>();
         for (int i = 0; i < arr.length; i++) {
             map.merge(arr[i], 1, Integer::sum);
         }
