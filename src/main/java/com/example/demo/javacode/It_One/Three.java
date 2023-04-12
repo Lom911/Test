@@ -4,8 +4,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Three {
-    //Например: //"abc" => a //"abca" => b //"abcab" => c //"abcabcd" => d
-    //expected "A,BC7,D" } // ["a","bC7","d"] -> "A,BC7,D"
+    //Найти первый не повторяющийся символ. Например: //"abc" => a //"abca" => b //"abcab" => c //"abcabcd" => d
+    //Объединить строку ["a","bC7","d"] -> "A,BC7,D"
     public static void main(String[] args) {
         String str = "a, b, c, a";
         System.out.println(getFirstUnique(str));
@@ -28,7 +28,6 @@ public class Three {
         }
         return null;
     }
-    //public static String join(List<String> list) { return ""; } }
     public static String join(List<String> list) {
         StringBuilder strBuild = new StringBuilder();
         for (String st : list) {
@@ -40,24 +39,6 @@ public class Three {
 
 
 
-//        create table users
-//        (user_id int8 not null,
-//        user_name varchar(50)not null,
-//        user_group varchar(50)not null,
-//        salary int8 default 0not null,
-//        constraint pk_users primary key(user_id))
-//
-//        --user_group in'ACCOUNTING','IT','TRANSPORTATION'
-//        select user_group,sum(salary)
-//        from users having user_id>100 and sum(salary)>2000
-//
-//        select user_group, sum(salary)// исправленный вариант
-// from users where user_id>100 group by user_group having sum(salary) > 2000
-//
-//
-//        public static void main(String[]args){
-//
-//
 
 
 

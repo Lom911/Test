@@ -7,7 +7,7 @@ package com.example.demo.javacode.It_One;
 public class Six {
     public static void main(String[] args) {
         String[] arr = new String[]{"adb", "ysr", "tst"};
-        String del = "*";
+        String del = "**";
         String s = Str(arr, del);
         System.out.println(s);
 

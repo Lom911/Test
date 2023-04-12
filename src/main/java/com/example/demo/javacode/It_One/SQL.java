@@ -21,8 +21,7 @@ public class SQL {
 //    population(city varchar(255) not null,
 //
 //    country varchar(255) not null,
-//    people integer
-//    not null);
+//    people integer not null);
 //    insert into
 //
 //    population values('Moscow','USA',25000);

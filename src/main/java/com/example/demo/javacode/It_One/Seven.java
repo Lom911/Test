@@ -9,7 +9,7 @@ import java.util.Map;
  */
 public class Seven {
     public static void main(String[] args) {
-        int[] arr = new int[]{0, 0, -7, -7, -7, 1, 2, 5, 3, 1, 2};
+        int[] arr = {0, 0, -7, -7, -7, 1, 2, 5, 3, 1, 2};
         int n = getFirstUnique(arr);
         System.out.println("Найдено уникальное значение " + n);
     }
