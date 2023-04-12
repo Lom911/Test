@@ -7,6 +7,12 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+/**
+ * Количество повторений элементов массива
+ * Самый часто встречающийся элемент массива
+ * Самый редко встречающийся элемент массива
+ * Числа от 1 до 10, не попавшие в массив
+ */
 public class One {
     static int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     static int[] arr = {3, 2, 9, 4, 4, 1, 2, 5, 7, 3, 1, 5, 2};
