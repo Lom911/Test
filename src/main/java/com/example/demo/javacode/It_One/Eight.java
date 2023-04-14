@@ -11,8 +11,8 @@ import java.util.List;
 
 public class Eight {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(moveZerosToEnd(new int[]{1, 2, 0, 3, 0, 4})));
-        List<Integer> list = List.of(1, 2, 0, 3, 0, 4);
+        System.out.println(Arrays.toString(moveZerosToEnd(new int[]{5, 7, 0, 4, 0, 4, 7, 0})));
+        List<Integer> list = List.of(5, 7, 0, 4, 0, 4, 7, 0);
         System.out.println(moveZerosToEnd2(list));
     }
 
@@ -28,8 +28,7 @@ public class Eight {
         }
         return result;
     }
-
-    // не копировать - не смогу пояснить как это работает.
+// Второй вариант решения более красивый
     private static List<Integer> moveZerosToEnd2(List<Integer> list) {
         List<Integer> arr = new ArrayList<>(list);
         arr.sort((o1, o2) -> {

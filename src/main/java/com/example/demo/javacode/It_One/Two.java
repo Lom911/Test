@@ -12,6 +12,7 @@ public class Two {
         int[] arr = {4, 5, 7, 5, 4, 9, 4};
         System.out.println(firstUniq(arr));
     }
+
     public static int firstUniq(int[] arr) {
         Map<Integer, Integer> map = new LinkedHashMap<>();
         for (int i = 0; i < arr.length; i++) {

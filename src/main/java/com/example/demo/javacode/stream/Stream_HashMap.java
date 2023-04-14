@@ -30,8 +30,8 @@ public class Stream_HashMap {
         return resultMap.entrySet().stream()
                 .filter(v -> v.getValue() >= threshold)
                 .map(k -> k.getKey())
-                .sorted(Comparator.comparingInt(Integer::parseInt))                    // это 2 варианта исполнения
-//                .sorted((v1, v2) -> Integer.parseInt(v1) - Integer.parseInt(v2))     // это 2 варианта исполнения
+//                .sorted(Comparator.comparingInt(Integer::parseInt))                    // это 2 варианта исполнения
+                .sorted((v1, v2) -> Integer.parseInt(v1) - Integer.parseInt(v2))     // это 2 варианта исполнения
                 .collect(Collectors.toList());
     }
 
