@@ -14,6 +14,7 @@ public class Eight {
         System.out.println(Arrays.toString(moveZerosToEnd(new int[]{5, 7, 0, 4, 0, 4, 7, 0})));
         List<Integer> list = List.of(5, 7, 0, 4, 0, 4, 7, 0);
         System.out.println(moveZerosToEnd2(list));
+
     }
 
 
@@ -31,6 +32,7 @@ public class Eight {
 // Второй вариант решения более красивый
     private static List<Integer> moveZerosToEnd2(List<Integer> list) {
         List<Integer> arr = new ArrayList<>(list);
+
         arr.sort((o1, o2) -> {
             if (o1 == 0) return 1;
             if (o2 == 0) return -1;
@@ -39,5 +41,8 @@ public class Eight {
 
         return arr;
     }
+
 }
+
+
 

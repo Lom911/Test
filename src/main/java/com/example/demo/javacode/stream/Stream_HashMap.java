@@ -12,6 +12,7 @@ public class Stream_HashMap {
         List<String[]> s1 = logs.stream()
                 .map(s -> s.split(" "))
 //                .collect(Collectors.groupingBy(logs.get(0),  ))
+
                 .collect(Collectors.toList());
 
 

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class algoritm {
+public class Algoritm {
 
     /**
      * [2, -4, 10] sum 6 -> [-4, 10]
