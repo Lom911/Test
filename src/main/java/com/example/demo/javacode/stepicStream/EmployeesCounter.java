@@ -4,9 +4,9 @@ package com.example.demo.javacode.stepicStream;
 import java.util.List;
 
 /**
- *Your task is to implement a method that calculates the total number of employees with salary >= threshold
- * for all departments whose code starts with the string "111-" (without "").
- * Try to apply your knowledge of the Stream API and especially the flatMap method to provide the implementation.
+ *Ваша задача — реализовать метод, вычисляющий общее количество сотрудников с окладом >= порога
+ * для всех отделов, код которых начинается со строки «111-» (без «»).
+ * Попробуйте применить свои знания о Stream API и особенно о методе flatMap, чтобы обеспечить реализацию.
  */
 class EmployeesCounter {
     public static void main(String[] args) {

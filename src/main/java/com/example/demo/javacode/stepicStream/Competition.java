@@ -4,6 +4,9 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+/**
+ * Преобразовать в LinkedHashMap
+ */
 class Competition {
 
     public static Map<String, Integer> getTeamPlaceMap(Collection<Team> teams) {

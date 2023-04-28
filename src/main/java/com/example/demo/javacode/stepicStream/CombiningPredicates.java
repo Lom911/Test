@@ -11,12 +11,12 @@ import java.util.stream.Stream;
 class CombiningPredicates {
 
     /**
-     * Here, you need to implement the conjunctAll method that accepts a stream of IntPredicate
-     * objects and returns one composed IntPredicate.
-     * This predicate must be a conjunction of all the input predicates,
-     * i.e. it returns true only if the input predicates return true, otherwise it must be false.
-     * If the input list is empty, the resulted predicate must return true for any integer value
-     * (it is also known as always true predicate).
+     * Здесь вам нужно реализовать метод conjunctAll,
+     * который принимает поток объектов IntPredicate и возвращает один составленный IntPredicate.
+     * Этот предикат должен быть конъюнкцией всех входных предикатов, т. е. он возвращает истину только в том случае,
+     * если входные предикаты возвращают истину, в противном случае он должен быть ложным.
+     * Если входной список пуст, результирующий предикат должен возвращать истину для
+     * любого целочисленного значения (он также известен как всегда истинный предикат).
      */
     public static IntPredicate conjunctAll(Stream<IntPredicate> predicates) {
         return predicates.reduce(x -> true, (x, y) -> x.and(y));
