@@ -17,5 +17,6 @@ public class polindrom {
         else
             System.out.println("Не палиндром! :( " + s);
     }
+    
 }
 

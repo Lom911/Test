@@ -46,10 +46,12 @@ public class CountRepeat {
         for (int j : arr) {
             numbers.merge(j, 1, Integer::sum); //хорошее применение метода)
         }
+        
         for (Integer key : numbers.keySet()) {
             if (numbers.get(key) > 1) {
                 System.out.println(key + " -> " + numbers.get(key));
             }
+
         }
     }
 }
